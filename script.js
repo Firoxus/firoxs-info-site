@@ -1,11 +1,7 @@
+const n = 999999999999;
 
-/* Credit and Thanks:
-Matrix - Particles.js;
-SliderJS - Ettrics;
-Design - Sara Mazal Web;
-Fonts - Google Fonts
-*/
-
+// looping from i = 1 to 5
+for (let i = 1; i <= n; i++) {
 function recursiveAnimateTitle(string) {
   let firstLetter = string[0];
   let title = document.querySelector('title');
@@ -16,13 +12,15 @@ function recursiveAnimateTitle(string) {
     }, 100);
   }
 }
-
+  
 function animateTitle(string) {
   document.querySelector('title').innerHTML = "";
   recursiveAnimateTitle(string);
 }
 
 animateTitle('Firox');
+}
+
 
 window.onload = function () {
   Particles.init({
