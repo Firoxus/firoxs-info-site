@@ -1,4 +1,4 @@
-const n = 999999999999;
+const n = 9007199254740992;
 
 // looping from i = 1 to 5
 for (let i = 1; i <= n; i++) {
